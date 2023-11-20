@@ -17,3 +17,7 @@ make
 ```
 
 This will produce a file, `build/affidavit.pdf`.
+
+The output looks like the following:
+
+![An example affidavit of person named John Doe that has three statements](https://github.com/seldridge/pandoc-template-affidavit/blob/main/doc/example.png?raw=true)
