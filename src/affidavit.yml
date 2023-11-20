@@ -1,0 +1,20 @@
+# This is your name.  This will be used to populate a LaTeX command \name.  This
+# can be used in the statements if you wish.
+name: John Doe
+# The "in re" is the legal case that you are writing about.  This could be a
+# specific legal case, a matter, or a petition.  It's the affidvait equivalent
+# of the "subject line".
+inre: The Legal Case of, The Matter of, The Petition of
+# The year in which you will get this affidvait notarized.
+year: 2023
+# An array of statements you are making.  The first statement likely includes
+# your name, birthplace, etc.  The second statement is likely your connection to
+# the "in re".  The following statements are likely what you actually want to
+# say.  You can do whatever structure you want, though.
+statements:
+  - |
+    Statement 1.
+  - |
+    Statement 2.
+  - |
+    Statement 3.

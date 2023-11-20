@@ -1,0 +1,66 @@
+\documentclass{article}
+
+\usepackage{hyperref}
+\usepackage[letterpaper, margin=1in]{geometry}
+\usepackage{xspace}
+
+\setlength\parindent{0pt}
+
+\def\name{{$name$\xspace}}
+\def\inre{$inre$\xspace}
+\def\year{$year$\xspace}
+
+\begin{document}
+
+\thispagestyle{empty}
+
+\parbox{2in}{
+  \MakeUppercase{In re $inre$}
+  }
+
+\begin{center}
+  \MakeUppercase{\large Affidavit of \MakeUppercase{\name}}
+\end{center}
+
+\MakeUppercase{Before me}, the undersigned authority, personally appeared \MakeUppercase{\name} who, after being duly sworn and cautioned upon his oath, deposes and states:
+
+\begin{enumerate}
+  $for(statements)$
+  \item $it$
+  $endfor$
+\end{enumerate}
+
+\MakeUppercase{further affiant sayeth naught}\\
+
+\begin{flushright}
+\parbox{3in} {
+  \hrulefill
+  \vspace{-2ex}
+  \begin{center}
+    \MakeUppercase{\name}
+  \end{center}
+}
+\end{flushright}
+
+\parbox{2in} {
+  \MakeUppercase{state of}\quad\hrulefill\\
+  \MakeUppercase{county of}\quad\hrulefill
+}
+
+~\\
+
+Sworn to and subscribed before me this \rule{0.25in}{0.4pt} day of \rule{0.5in}{0.4pt}, $year$, by \MakeUppercase{\name}, who personally appeared before me, is personally known to me or produced \rule{2in}{0.4pt} as identification, and did take an oath.
+
+\vfill
+
+\begin{flushright}
+  \parbox{3in}{
+    Notary:\quad\hrulefill\\
+    Print Name:\quad\hrulefill\\
+    Notary Public, State of:\quad\hrulefill\\
+    My commission expires:\quad\hrulefill
+  }
+\end{flushright}
+
+
+\end{document}
